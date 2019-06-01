@@ -20,7 +20,7 @@ pacman --noconfirm -S --needed \
     sshpass \
     texinfo \
     autogen \
-    dejagnu
+    dejagnu \
     
 git clone -b develop https://github.com/niXman/mingw-builds
 cd mingw-builds
