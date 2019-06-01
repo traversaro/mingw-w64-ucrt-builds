@@ -4,23 +4,7 @@ set -e
 
 pacman --noconfirm -Suy
 
-pacman --noconfirm -S --needed \
-    git \
-    subversion \ 
-    tar \
-    zip \
-    p7zip \ 
-    make \
-    patch \
-    automake \
-    autoconf \
-    libtool \
-    bison \
-    gettext-devel \
-    sshpass \
-    texinfo \
-    autogen \
-    dejagnu \
+pacman --noconfirm -S --needed git subversion tar zip p7zip make patch automake autoconf libtool bison gettext-devel sshpass texinfo autogen dejagnu
     
 git clone -b develop https://github.com/niXman/mingw-builds
 cd mingw-builds
