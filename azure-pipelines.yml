@@ -1,6 +1,6 @@
 jobs:
   - job: MAIN
-    timeoutInMinutes: 60
+    timeoutInMinutes: 240
     pool:
       vmImage: vs2017-win2016
     strategy:
