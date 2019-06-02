@@ -8,4 +8,4 @@ pacman --noconfirm -S --needed git subversion tar zip p7zip make patch automake 
     
 git clone -b develop https://github.com/niXman/mingw-builds
 cd mingw-builds
-./build --mode=gcc-8.2.0 --arch=x86_64 --threads=win32 --with-default-msvcrt=ucrt --exceptions=seh --rt-version=v6
+./build --mode=gcc-7.2.0 --arch=x86_64 --threads=win32 --with-default-msvcrt=ucrt --exceptions=seh --rt-version=v6
